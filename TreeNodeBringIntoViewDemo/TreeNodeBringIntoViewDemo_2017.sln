@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeNodeBringIntoViewDemo_2017", "TreeNodeBringIntoViewDemo_2017.csproj", "{91B0DE08-608F-4824-BEC5-5666AE39F298}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91B0DE08-608F-4824-BEC5-5666AE39F298}.Debug|x86.ActiveCfg = Debug|x86
+		{91B0DE08-608F-4824-BEC5-5666AE39F298}.Debug|x86.Build.0 = Debug|x86
+		{91B0DE08-608F-4824-BEC5-5666AE39F298}.Release|x86.ActiveCfg = Release|x86
+		{91B0DE08-608F-4824-BEC5-5666AE39F298}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6D233D2-0109-4716-96A1-83D2D8B10AAB}
+	EndGlobalSection
+EndGlobal
