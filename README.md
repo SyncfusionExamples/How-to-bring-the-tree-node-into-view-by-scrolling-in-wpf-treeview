@@ -1,4 +1,4 @@
-# How to bring the tree node into view by scrolling in WPF TreeView
+# How to Bring the Tree Node into View by Scrolling in WPF TreeView?
 
 This repository describes how to bring the tree node into view by scrolling in [WPF TreeView](https://www.syncfusion.com/wpf-controls/treeview) (SfTreeView).
 
@@ -47,6 +47,8 @@ private void BringIntoView_Click(object sender, RoutedEventArgs e)
     sfTreeView.BringIntoView(data, false,true);
 }
 ```
+
+**Note:** We need to set the [NodePopulationMode](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.TreeView.SfTreeView.html#Syncfusion_UI_Xaml_TreeView_SfTreeView_NodePopulationMode) API value as `TreeNodePopulationMode.Instant` for scrolling to the collapsed item in addition to the additional parameter passed to the `BringIntoView` method.
 
 ### Scroll the item into specified position
 
